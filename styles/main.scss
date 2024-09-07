@@ -2,7 +2,7 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: black;
+  background-color: rgb(176, 167, 167);
 }
 
 .navbar-dark .navbar-brand {
@@ -95,4 +95,10 @@ body {
   .description {
     white-space: pre-wrap;
   }
+}
+
+#google-auth {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
